@@ -1,0 +1,27 @@
+# Text files with Unix-style LF endings
+*.py    text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+
+# Binary files (images, fonts, database)
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.svg   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.sqlite3 binary
+
+# Migrations - avoid merge conflicts by always keeping the current branch's version
+*/migrations/*.py merge=ours
+
+# Ignore compiled Python files on export
+*.pyc export-ignore
+
+# Static and media files
+static/* binary
+media/* binary

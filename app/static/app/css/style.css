@@ -1,0 +1,136 @@
+.owl-carousel .item{
+ /* border: 1px solid black; */
+ font-size: 24px;
+ text-align: center;
+ margin-top: 20px;
+ transition: transform .5s ease;
+}
+
+ .owl-carousel .item:hover{
+    /* border: 1px solid black; */
+    transform : scale(1.1);
+}
+
+/* .owl-carousel img{
+    transition: transform .5s ease;
+  }
+ .owl-carousel img:hover{
+    
+    transform : scale(1.25);
+} */
+
+.owl-next{
+ float:right;
+}
+.owl-prev{
+ float:left;
+}
+.owl-prev span{
+ font-size: 24px;
+ font-weight: bold;
+}
+.owl-next span{
+ font-size: 24px;
+ font-weight: bold;
+}
+
+
+
+
+.buttermilk{
+    background-color:#fff;background-image:linear-gradient(#fff7ef, #fff);
+    background-image:-webkit-linear-gradient(#fff7ef, #fff);
+    background-image:-moz-linear-gradient(#fff7ef, #fff);
+    background-image:-ms-linear-gradient(#fff7ef, #fff);
+    background-image:-o-linear-gradient(#fff7ef, #fff);
+    padding:50px 40px;
+    border:1px solid #efe8e1;
+    padding-bottom:20px;
+}
+
+.smbg{
+    background-color:#fff;
+    background-image:linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image:-webkit-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image:-moz-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image:-ms-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+    background-image:-o-linear-gradient(rgba(110, 69, 143, 0.1), #fff);
+}
+
+.curdbgpro{
+    background-color:#fff;
+    background-image:linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+    background-image:-webkit-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+    background-image:-moz-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+    background-image:-ms-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+    background-image:-o-linear-gradient(rgba(10, 77, 123, 0.1), #fff);
+}
+
+.goodnessseccont img{
+    width:100%;
+}
+
+.mlkpro{
+    color:#636362;
+    font-size:22px;
+    line-height:22px;
+    margin-bottom:15px;
+    width:43%;
+    margin:0 auto;
+    text-align:center;
+    
+}
+
+.goodnesssec a{
+    text-decoration: none;
+}
+
+/* Default link style */
+a {
+    color: #ffffff; /* White text color for normal state */
+    border: 1px solid #ffffff; /* White border for normal state */
+    background-color: transparent; /* Transparent background for normal state */
+    text-decoration: none; /* Remove underline */
+    padding: 5px; /* Add padding */
+    transition: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color, border, and background */
+}
+
+/* Hover state (when mouse is over the link) */
+a:hover {
+    color: #ffc107; /* Yellowish text color on hover */
+    border: 1px solid #ffc107; /* Yellowish border color on hover */
+    background-color: #333333; /* Background color change on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Focus state (when link is selected, e.g., via keyboard navigation or about to click) */
+a:focus {
+    color: #17a2b8; /* Light blue text color when focused */
+    border: 1px solid #17a2b8; /* Light blue border when focused */
+    background-color: #222222; /* Background color change on focus */
+    text-decoration: none; /* Keep underline removed */
+    outline: 2px solid #17a2b8; /* Add outline for accessibility */
+}
+
+/* Active state (when the link is clicked) */
+a:active {
+    color: #000000; /* Black text color when clicked */
+    border: 1px solid #ff5722; /* Orange border color when clicked */
+    background-color: #ffcccb; /* Background color change when clicked */
+    text-decoration: none; /* Remove underline */
+}
+img {
+
+transition: transform 0.3s ease, border 0.3s ease; /* Smooth transition for both size and border */
+border: 2px solid transparent; /* Default no border */
+}
+
+/* Hover state */
+img:hover {
+transform: scale(1.2); /* Increase image size by 20% */
+}
+
+/* Active state (when image is clicked) */
+img:active {
+border: 5px solid #ff5722; /* Add thick orange border when clicked */
+}

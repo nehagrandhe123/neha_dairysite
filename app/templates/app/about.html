@@ -1,0 +1,53 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block banner-slider %}
+ <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+{% endblock banner-slider %}
+
+{% block main-content %}
+<div class="container mt-3">
+    <p class="fs-4 text-center">
+        Welcome to Dairy Producs Store, Bangalore’s freshest source for premium 
+        dairy products. Established in 2023, we are committed to bringing you the 
+        highest quality milk, ghee, paneer, cheese, lassi, ice creams, and milkshakes. 
+        Our products are crafted with care and passion to ensure that every sip and bite 
+        delivers the pure, natural taste of dairy goodness. 
+        Whether you're looking to enrich your meals with our rich ghee, indulge in our 
+        creamy icecreams, or enjoy a refreshing glass of lassi, we have something for everyone. 
+        At our company, we believe in supporting healthy lifestyles by providing products 
+        that are not only delicious but also made with the freshest ingredients. Based in 
+        Bangalore, we proudly serve our local community and beyond with a commitment to
+         excellence and authenticity in every product we offer.
+    </p>
+    <br><br>
+    <h2 class="text-center">Goals</h2>
+    <br>
+    <div class="row container">
+        <p class="fs-4 text-center">
+            At our Company, our primary goal is to provide customers with fresh, high-quality dairy products that nourish both body and mind. 
+            We strive to maintain the highest standards of purity and authenticity in every product we offer, from our rich ghee to our creamy ice creams.
+            Our mission is to become a trusted household name in Bangalore and beyond by ensuring that every product delivers on taste, nutrition, and satisfaction. 
+            Sustainability is at the heart of what we do, and we are dedicated to sourcing our ingredients responsibly while supporting local farmers and suppliers. 
+            As we grow, we aim to expand our product line, continuously innovate, and set new benchmarks for excellence in the dairy industry, all while keeping customer trust and quality at the forefront of our business.
+        </p>
+    </div>
+</div>
+<br><br>
+{% endblock main-content %}
